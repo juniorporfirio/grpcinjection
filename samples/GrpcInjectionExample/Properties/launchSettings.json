@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "GrpcInjectionExample": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5060;https://localhost:7060",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

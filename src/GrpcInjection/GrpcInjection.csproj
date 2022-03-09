@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <LangVersion>latest</LangVersion>
+	  <PackageId>GrpcInjection</PackageId>
+        <VersionSuffix Condition="'$(VersionSuffix)' == ''">0</VersionSuffix>
+        <Version>0.1.$(VersionSuffix)</Version>
+        <Authors>Júnior Porfirio</Authors>
+        <PackageDescription>A source generator for C# to allow you to generate  during compile time.</PackageDescription>
+        <RepositoryUrl>https://github.com/juniorporfirio/grpcinjection.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>source generator</PackageTags>
+        <PackageProjectUrl>https://github.com/juniorporfirio/grpcinjection</PackageProjectUrl>
+        <Copyright>(c) Junior Porfirio</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <IsPackable>true</IsPackable>
+        <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+        <IsRoslynComponent>true</IsRoslynComponent>
+
+
+
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.1.0" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3" PrivateAssets="all" />
+	</ItemGroup>
+</Project>

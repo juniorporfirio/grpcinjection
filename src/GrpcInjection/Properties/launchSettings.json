@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GrpcSourceGenerator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\..\\samples\\GrpcInjectionExample\\GrpcInjectionExample.csproj"
+    }
+  }
+}
