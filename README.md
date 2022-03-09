@@ -1,7 +1,11 @@
 # Grpc Injection
 A Source Generator package for C#, that allow you to generate Grpc Services and Interceptors dependencies without Reflection.
+<!-- [![Nuget count](https://img.shields.io/nuget/v/grpcinjection.svg)](https://www.nuget.org/packages/grpcinjection/) -->
 
-[![License](https://img.shields.io/github/license/giggio/sourceinject.svg)](https://github.com/giggio/sourceinject/blob/master/LICENSE.txt)
+[![Build](https://github.com/juniorporfirio/grpcijnjection/actions/workflows/dotnet.yml/badge.svg)](https://github.com/juniorporfirio/grpcinjection/actions/workflows/dotnet.yml)
+[![License](https://img.shields.io/github/license/juniorporfirio/grpcinjection.svg)](https://github.com/giggio/grpcinjection/blob/master/LICENSE.txt)
+
+https://github.com/juniorporfirio/grpcinjection/actions/workflows/dotnet.yml
 
 ## Installing
 The package is available ([on NuGet](https://www.nuget.org/packages/grpcinjection).
