@@ -7,7 +7,7 @@
         <VersionSuffix Condition="'$(VersionSuffix)' == ''">0</VersionSuffix>
         <Version>0.1.$(VersionSuffix)</Version>
         <Authors>Júnior Porfirio</Authors>
-        <PackageDescription>A source generator for C# to allow you to generate  during compile time.</PackageDescription>
+        <PackageDescription>A source generator for C# that allow you to generate Services and Interceptors during compile time.</PackageDescription>
         <RepositoryUrl>https://github.com/juniorporfirio/grpcinjection.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>source generator</PackageTags>

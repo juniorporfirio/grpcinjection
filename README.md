@@ -10,7 +10,7 @@ The package is available ([on NuGet](https://www.nuget.org/packages/grpcinjectio
 To install from the command line:
 
 ```shell
-dotnet add package grpcinjection --prerelease
+dotnet add package GrpcInjection
 ```
 
 Or use the Package Manager in Visual Studio.
